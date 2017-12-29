@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour {
     private void Awake()
     {
         _rigidbody = this.GetComponent<Rigidbody>();
+	Debug.Log("this is Edite in Git.");
     }
 
     // Update is called once per frame
